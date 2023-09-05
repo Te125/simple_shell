@@ -27,7 +27,7 @@ extern char **environ;
 
 extern ssize_t getline(char **__restrict __lineptr, size_t *n, FILE *stream);
 extern int isatty(int __fd) __THROW;
-extern int unsetenv(const char *__name) __THROW __nonnull ((1));
+extern int unsetenv(const char *__name) __THROW __nonnull((1));
 extern int setenv(const char *__name, const char *__value, int __replace);
 extern void exit(int __status) __THROW __attribute__ ((__noreturn__));
 extern int execvp(const char *__file, char *const __argv[]);
